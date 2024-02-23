@@ -1,0 +1,16 @@
+Texto endereco;
+inteiro telefone;
+fracionado salario;
+inteiro cpf;
+fracionado preco;
+inteiro temperatura;
+logica casado
+texto nascimento
+logica vacinado
+fracionado preco_gasolina
+fracionado litros_gasolina
+fracionado preco_pao
+fraciado total_compras
+inteiro idade
+inteiro data_contrato
+inteiro nivel_escolaridade
