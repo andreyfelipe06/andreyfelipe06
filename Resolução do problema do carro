@@ -1,0 +1,22 @@
+def calcular_consumo_combustivel(tempo, velocidade_media):
+    # Calcular a distância percorrida
+    distancia = tempo * velocidade_media
+    
+    # Calcular a quantidade de litros de combustível utilizada
+    litros_usados = distancia / 12
+    
+    # Retornar os valores calculados
+    return velocidade_media, tempo, distancia, litros_usados
+
+# Solicitar os dados do usuário
+tempo = float(input("Digite o tempo gasto na viagem (em horas): "))
+velocidade_media = float(input("Digite a velocidade média durante a viagem (em km/h): "))
+
+# Calcular os resultados
+velocidade_media, tempo, distancia, litros_usados = calcular_consumo_combustivel(tempo, velocidade_media)
+
+# Apresentar os resultados
+print(f"Velocidade média: {velocidade_media} km/h")
+print(f"Tempo gasto: {tempo} horas")
+print(f"Distância percorrida: {distancia} km")
+print(f"Quantidade de litros de combustível utilizada: {litros_usados} litros")
