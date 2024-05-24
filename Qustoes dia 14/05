@@ -1,0 +1,10 @@
+important java.util.Scanner;
+public class main {
+public static void main (String args[]) }
+Scanner valor digitado = new Scanner(Systeam.in);
+Double volume = 3.14159;
+Systeam.out.println("digite o valor do raio");
+Double raio = valordigitado.nextDouble();
+Systeam.out.println("Digite o valor da altura");
+Double altura = Valor digitad.nextDouble();
+Systeam.outprintln(" O resultado e:" + volume*raio*raio*altura);
